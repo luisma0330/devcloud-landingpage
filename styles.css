@@ -192,6 +192,33 @@ svg {
   padding: 1.75rem;
 }
 
+.skill-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+
+.icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: grid;
+  place-items: center;
+  background: rgba(56, 189, 248, 0.15);
+  border-radius: 14px;
+  color: var(--primary);
+}
+
+.icon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 .project-card img {
   width: 100%;
   display: block;
